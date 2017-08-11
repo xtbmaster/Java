@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="27" failures="0" name="sysGears.crypting.compilePck.cipherWorkshop.SeparatorTest" time="0.135" errors="0" skipped="0">
+  <properties>
+    <property name="idea.version" value="2016.2.3"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files (x86)\Java\jdk\jre\bin"/>
+    <property name="java.vm.version" value="25.92-b14"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="idea.launcher.port" value="7535"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\Программы\IDEA\myExamples\sample\sample"/>
+    <property name="java.runtime.version" value="1.8.0_92-b14"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files (x86)\Java\jdk\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\art\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="D:\Программы\IDEA\IntelliJ IDEA Community Edition 2016.2\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.library.path" value="C:\Program Files (x86)\Java\jdk\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;D:\c++\soft\apache-maven-3.3.9;D:\Программы\Brackets\command;C:\Program Files (x86)\Skype\Phone\;D:\c++\soft\apache-maven-3.3.9\bin;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\art"/>
+    <property name="user.timezone" value="Europe/Helsinki"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="idea.launcher.bin.path" value="D:\Программы\IDEA\IntelliJ IDEA Community Edition 2016.2\bin"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="art"/>
+    <property name="java.class.path" value="D:\Программы\IDEA\IntelliJ IDEA Community Edition 2016.2\plugins\maven\lib\maven3\boot\plexus-classworlds-2.4.jar;D:\Программы\IDEA\IntelliJ IDEA Community Edition 2016.2\lib\idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files (x86)\Java\jdk\jre"/>
+    <property name="sun.java.command" value="com.intellij.rt.execution.application.AppMain org.codehaus.classworlds.Launcher -Didea.version=2016.2.3 test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="ru"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_92"/>
+    <property name="java.ext.dirs" value="C:\Program Files (x86)\Java\jdk\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files (x86)\Java\jdk\jre\lib\resources.jar;C:\Program Files (x86)\Java\jdk\jre\lib\rt.jar;C:\Program Files (x86)\Java\jdk\jre\lib\sunrsasign.jar;C:\Program Files (x86)\Java\jdk\jre\lib\jsse.jar;C:\Program Files (x86)\Java\jdk\jre\lib\jce.jar;C:\Program Files (x86)\Java\jdk\jre\lib\charsets.jar;C:\Program Files (x86)\Java\jdk\jre\lib\jfr.jar;C:\Program Files (x86)\Java\jdk\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="D:\Программы\IDEA\IntelliJ IDEA Community Edition 2016.2\plugins\maven\lib\maven3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="[0] 0001 (temperatureConrolCheckTest_B)(sysGears.crypting.compilePck.cipherWorkshop.SeparatorTest)" name="[0] 0001 " time="0"/>
+  <testcase classname="[1] minus (temperatureConrolCheckTest_B)(sysGears.crypting.compilePck.cipherWorkshop.SeparatorTest)" name="[1] minus " time="0"/>
+  <testcase classname="[0] Af00SrCJ (driverIdTest)(sysGears.crypting.compilePck.cipherWorkshop.SeparatorTest)" name="[0] Af00SrCJ " time="0"/>
+  <testcase classname="[1] QQWEsRkf (driverIdTest)(sysGears.crypting.compilePck.cipherWorkshop.SeparatorTest)" name="[1] QQWEsRkf " time="0"/>
+  <testcase classname="[2] JKCIRO (driverIdTest)(sysGears.crypting.compilePck.cipherWorkshop.SeparatorTest)" name="[2] JKCIRO " time="0"/>
+  <testcase classname="[3] ZZZar (driverIdTest)(sysGears.crypting.compilePck.cipherWorkshop.SeparatorTest)" name="[3] ZZZar " time="0"/>
+  <testcase classname="[4] S88KKKRsciiio (driverIdTest)(sysGears.crypting.compilePck.cipherWorkshop.SeparatorTest)" name="[4] S88KKKRsciiio " time="0.001"/>
+  <testcase classname="[5] 10refe5S (driverIdTest)(sysGears.crypting.compilePck.cipherWorkshop.SeparatorTest)" name="[5] 10refe5S " time="0"/>
+  <testcase classname="[0] Adf0SrCJ (fragilityTypeCheckTest_A)(sysGears.crypting.compilePck.cipherWorkshop.SeparatorTest)" name="[0] Adf0SrCJ " time="0"/>
+  <testcase classname="[1] QfEsRkf (fragilityTypeCheckTest_A)(sysGears.crypting.compilePck.cipherWorkshop.SeparatorTest)" name="[1] QfEsRkf " time="0"/>
+  <testcase classname="[0] Ad0SrCJ (fragilityTypeCheckTest_B)(sysGears.crypting.compilePck.cipherWorkshop.SeparatorTest)" name="[0] Ad0SrCJ " time="0"/>
+  <testcase classname="[1] QQEsRkf (fragilityTypeCheckTest_B)(sysGears.crypting.compilePck.cipherWorkshop.SeparatorTest)" name="[1] QQEsRkf " time="0"/>
+  <testcase classname="[0] -001 (temperatureControlCheckTest_A)(sysGears.crypting.compilePck.cipherWorkshop.SeparatorTest)" name="[0] -001 " time="0"/>
+  <testcase classname="[1] +444 (temperatureControlCheckTest_A)(sysGears.crypting.compilePck.cipherWorkshop.SeparatorTest)" name="[1] +444 " time="0"/>
+  <testcase classname="[0] Af00SrCJ (deletePrefixTest)(sysGears.crypting.compilePck.cipherWorkshop.SeparatorTest)" name="[0] Af00SrCJ " time="0.001"/>
+  <testcase classname="[1] QQWEsRkf (deletePrefixTest)(sysGears.crypting.compilePck.cipherWorkshop.SeparatorTest)" name="[1] QQWEsRkf " time="0.004"/>
+  <testcase classname="[2] JKCIRO (deletePrefixTest)(sysGears.crypting.compilePck.cipherWorkshop.SeparatorTest)" name="[2] JKCIRO " time="0"/>
+  <testcase classname="[3] ZZZar (deletePrefixTest)(sysGears.crypting.compilePck.cipherWorkshop.SeparatorTest)" name="[3] ZZZar " time="0"/>
+  <testcase classname="[4] S88KKKRsciiio (deletePrefixTest)(sysGears.crypting.compilePck.cipherWorkshop.SeparatorTest)" name="[4] S88KKKRsciiio " time="0.049"/>
+  <testcase classname="[5] 10refe5S (deletePrefixTest)(sysGears.crypting.compilePck.cipherWorkshop.SeparatorTest)" name="[5] 10refe5S " time="0"/>
+  <testcase classname="[0] 143150145145163145 (cargoNameTest)(sysGears.crypting.compilePck.cipherWorkshop.SeparatorTest)" name="[0] 143150145145163145 " time="0"/>
+  <testcase classname="[1] 143150145145163145A (cargoNameTest)(sysGears.crypting.compilePck.cipherWorkshop.SeparatorTest)" name="[1] 143150145145163145A " time="0"/>
+  <testcase classname="[2] 143150145145163145AA (cargoNameTest)(sysGears.crypting.compilePck.cipherWorkshop.SeparatorTest)" name="[2] 143150145145163145AA " time="0"/>
+  <testcase classname="[0] Ad00SrCJ (hazardousTypeCheckTest_A)(sysGears.crypting.compilePck.cipherWorkshop.SeparatorTest)" name="[0] Ad00SrCJ " time="0"/>
+  <testcase classname="[1] QdEsRkf (hazardousTypeCheckTest_A)(sysGears.crypting.compilePck.cipherWorkshop.SeparatorTest)" name="[1] QdEsRkf " time="0"/>
+  <testcase classname="[0] A00SrCJ (hazardousTypeCheckTest_B)(sysGears.crypting.compilePck.cipherWorkshop.SeparatorTest)" name="[0] A00SrCJ " time="0.001"/>
+  <testcase classname="[1] QQEsRkf (hazardousTypeCheckTest_B)(sysGears.crypting.compilePck.cipherWorkshop.SeparatorTest)" name="[1] QQEsRkf " time="0"/>
+</testsuite>

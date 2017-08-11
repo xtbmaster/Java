@@ -1,0 +1,24 @@
+
+Vagrant.configure("2") do |config|
+
+
+  config.vbguest.auto_update = true
+  config.vbguest.no_remote = true
+
+  config.ssh.insert_key = false
+  config.vm.box = "bento/centos-7.2"
+
+  config.ssh.username = 'vagrant'
+  config.ssh.password = 'vagrant'
+
+
+  config.vm.network "forwarded_port",guest:4545, host:4545
+
+  config.vm.provider "virtualbox" do |vb|
+     vb.customize ["modifyvm", :id, "--memory", "512"]
+  end
+
+  config.vm.provision :shell, :path => "sqlConnection.sh"
+  config.vm.post_up_message = "The enviroment is ready! Please use port 4545 to connect, login: root, password: root."
+
+end
