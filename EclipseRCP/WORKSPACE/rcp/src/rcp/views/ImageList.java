@@ -1,11 +1,8 @@
 package rcp.views;
 
 import java.awt.image.BufferedImage;
-import java.io.File;
-import java.io.IOException;
 
 import javax.annotation.PostConstruct;
-import javax.imageio.ImageIO;
 import javax.inject.Inject;
 import org.eclipse.e4.core.services.events.IEventBroker;
 import org.eclipse.e4.ui.di.Focus;
@@ -31,7 +28,7 @@ public class ImageList {
 	Button addButton;
 	Table table;
 	ImagePreviewManager ipm;
-	
+
 	@Inject
 	EPartService partService;
 
@@ -40,50 +37,55 @@ public class ImageList {
 
 	@PostConstruct
 	public void createComposite(Composite parent) {
-		// parent.setLayout(new GridLayout(1, false));
+		parent.setLayout(new GridLayout(1, false));
 
 		addButton = new Button(parent, SWT.NONE);
-		addButton.setLayoutData(new GridLayout(1, false));
 		addButton.setText("Upload");
-		addButton.addSelectionListener(new SelectionListener(){
+		addButton.addSelectionListener(new SelectionListener() {
 
 			@Override
-			public void widgetDefaultSelected(SelectionEvent arg0) {}
+			public void widgetDefaultSelected(SelectionEvent arg0) {
+			}
 
 			@Override
 			public void widgetSelected(SelectionEvent arg0) {
 				TableItem item;
 				BufferedImage imgTarget;
 				String fileName;
-				
+
 				FileDialog dlg = new FileDialog(addButton.getShell(), SWT.OPEN);
 				dlg.setText("Select image");
-				
+
 				String path = dlg.open();
 
 				if (path != null) {
-					
+
 					ipm = ImagePreviewManager.getInstance();
 
 					imgTarget = ipm.uploadImage(path);
 
 					if (imgTarget != null) {
-						
+
 						item = new TableItem(table, SWT.DEFAULT);
 						item.setChecked(true);
-						
+
 						fileName = ipm.getTableItemName(dlg.getFileName());
 						item.setText(fileName);
-						
+
 						ipm.addToCollection(imgTarget, fileName);
-											
+
 						eventBroker.send(MyEventConsts.ADD_ELEMENT, imgTarget);
 					}
 				}
 			}
 		});
 
-		table = new Table(parent, SWT.CHECK | SWT.BORDER | SWT.V_SCROLL | SWT.H_SCROLL);
+		Composite composite = new Composite(parent, SWT.NONE);
+		composite.setLayoutData(new GridData(SWT.LEFT, SWT.CENTER | SWT.V_SCROLL | SWT.H_SCROLL, true, true, 1, 1));
+
+		table = new Table(composite, SWT.CHECK | SWT.BORDER | SWT.V_SCROLL | SWT.H_SCROLL);
+		table.setLocation(0, -5);
+		table.setSize(700, 700);
 		table.addListener(SWT.Selection, new Listener() {
 
 			@Override
@@ -102,6 +104,4 @@ public class ImageList {
 	public void setFocus() {
 		table.setFocus();
 	}
-
 }
-	
